@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 50px;
+    }
+
+    header {
+        background-color: rgb(121, 66, 66);
+        padding: 20px;
+        font-size: 40;
+        color: white 
+    }
+
+    main {
+        background: rgb(206, 177, 177);
+        padding: 20px;
+        border: 1px solid rgb(97, 60, 60);
+    }
+
+    #contenedor {
+        margin-top: 20px;
+        border: 1px solid rgb(97, 60, 60);
+        padding: 10px;
+    }
+</style>
+<body>
+    <header>
+        Red Ceibal
+    </header>
+    <main>
+        <nav>
+            <button onclick="ordenarPorNombre()">Ordenar por nombre</button>
+            <button onclick="ordenarPorId()">Ordenar por ID</button>
+        </nav>
+        <div id="contenedor"></div>
+    </main>
+</body>
+<script src="js/main.js"></script>
+</html>
